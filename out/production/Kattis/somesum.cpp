@@ -12,7 +12,14 @@ int main()
     }
     else if (k % 2 == 0)
     {
-        cout << "Odd";
+        if (k == 4 || k == 8)
+        {
+            cout << "Even";
+        }
+        else
+        {
+            cout << "Odd";
+        }
     }
     else
     {
